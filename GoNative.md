@@ -110,7 +110,7 @@ Arquivo .eslint.json
   },
   "plugins": [
 	"react",
-	"jsx-a11y"microsoft",
+	"jsx-a11y",
 	"import"
   ],
   "rules": {
