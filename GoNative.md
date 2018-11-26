@@ -6,11 +6,7 @@ https://visualstudio.microsoft.com/pt-br/vs/msft-android-emulator/
 
 1. Android Studio (Download pesado)
 Acesse o site e fazer o download do Android Studio para seu OS.
-Link: [Android Studio](https://developer.android.com/studio/)
-
-Depois do Download...
-
-Usar o Samsung Galaxy S8 7.0.0
+Link: [Android Studio](https://developer.android.com/studio/) e usar o Samsung Galaxy S8 7.0.0 de preferência. Ou um Android 6.0.0+
 
 2. Chocolatey
 Abrir o PowerShell como admin
