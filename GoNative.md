@@ -100,7 +100,7 @@ Do you use React? (ocasional)
 ### Configs do Visual Code Studio!
 
 Arquivo .eslint.json
-´´´json
+```json
 {
   "parser": "babel-eslint",
   "extends": "airbnb",
@@ -133,7 +133,7 @@ Arquivo .eslint.json
 	]
   }
 }
-´´´
+```
 
 
 * O compando "yarn", funciona como o "npm install"
