@@ -130,21 +130,21 @@ Arquivo .eslint.json
 * O compando "yarn", funciona como o "npm install"
 Plugins extras para o ESLint
 
-    "eslint": "\~",
-    "eslint-plugin-import": "\~",
-    "eslint-plugin-jsx-a11y": "\~",
-    "eslint-plugin-react": "\~"
+    "eslint": "\~",  
+    "eslint-plugin-import": "\~",  
+    "eslint-plugin-jsx-a11y": "\~",  
+    "eslint-plugin-react": "\~"  
 
 * Fazer o projecto funcionar com acesso ao caminha raiz, e não caminha relativo
 ```
 yarn add babel-plugin-module-resolver --dev
 ```
-* Caso você tenha o 
+* Caso você tenha o ESLint (Rever essa linha)
 ```
 yarn add eslint-import-resolver-babel-module --dev 
 ```
 
-* Plugin para exibir o DOM do seu projeto, pronto pra você inspecionar o HTML
+* Plugin para exibir o DOM do seu React-Native, pronto pra você inspecionar o HTML
 ```
 yarn add react-devtools --dev
 ```
