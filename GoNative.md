@@ -23,12 +23,16 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 ```
 
 1.3. Esse comando vai instalar várias dependecias
-cmd: choco install -y nodejs.install python2 jdk8
+```bash
+choco install -y nodejs.install python2 jdk8
+```
 
 
 1.4. Instalar yarn
 Acesse o site do [Yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable) ou se você tiver o Chocolatey
-cmd: choco install yarn
+```
+choco install yarn
+```
 
 ## Iniciando o Projeto (*Configs*)
 
