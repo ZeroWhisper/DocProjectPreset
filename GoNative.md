@@ -2,21 +2,18 @@
 
 https://visualstudio.microsoft.com/pt-br/vs/msft-android-emulator/
 
-## Ambiente Native (*Download*)
+## Ambiente Native (*Download and Install*)
 
-1. Android Studio (Download pesado)
-Acesse o site e fazer o download do Android Studio para seu OS.
-Link: [Android Studio](https://developer.android.com/studio/) e usar o Samsung Galaxy S8 7.0.0 de preferência. Ou um Android 6.0.0+
+1. [Android Studio](https://developer.android.com/studio/) (Download pesado)  
+Acesse o site e fazer o download do Android Studio para seu OS. Usar o Samsung Galaxy S8 7.0.0 de preferência. Ou um Android 6.0.0+
 
-2. Chocolatey
-Abrir o PowerShell como admin
-Execute o seguinte comando. (Depois da instalação execute choco -v para ver se a instalação teve sucesso)
-
+2. [Chocolatey](https://chocolatey.org/docs/installation)
+Resumo: Abrir o PowerShell como admin e execute o seguinte comando. (Depois da instalação execute choco -v para ver se a instalação teve sucesso)
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')) 
 ```
 
-3. Esse comando vai instalar várias dependências preparando o ambiente de desenvolvimento 
+3. Esse comando vai instalar várias dependências preparando o ambiente de desenvolvimento. Ou acesse o site do [Node.js](https://nodejs.org/en/)
 ```
 choco install -y nodejs.install python2 jdk8
 ```
