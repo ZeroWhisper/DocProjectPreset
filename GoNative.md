@@ -18,9 +18,9 @@ Usar o Samsung Galaxy S8 7.0.0
 Abrir o PowerShell como admin
 Execute o seguinte comando. (Depois da instalação execute choco -v para ver se a instalação teve sucesso)
 
-´´´bash 
+```bash 
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')) 
-´´´
+```
 
 1.3. Esse comando vai instalar várias dependecias
 cmd: choco install -y nodejs.install python2 jdk8
