@@ -129,11 +129,12 @@ Arquivo .eslint.json
 
 * O compando "yarn", funciona como o "npm install"
 Plugins extras para o ESLint
-
+```
     "eslint": "\~",  
     "eslint-plugin-import": "\~",  
     "eslint-plugin-jsx-a11y": "\~",  
     "eslint-plugin-react": "\~"  
+```
 
 * Fazer o projecto funcionar com acesso ao caminha raiz, e não caminha relativo
 ```
