@@ -2,8 +2,6 @@
 
 https://visualstudio.microsoft.com/pt-br/vs/msft-android-emulator/
 
-# ZeroWhisper :stuck_out_tongue_winking_eye:
-
 ## Ambiente Native (*Download*)
 
 1.1. Android Studio (Download pesado)
