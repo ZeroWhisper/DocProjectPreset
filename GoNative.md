@@ -27,12 +27,12 @@ choco install yarn
 
 ## Iniciando o Projeto (*Configs*)
 
-2.1. Iniciando um projeto React-Native
+1. Iniciando um projeto React-Native
 ```
 react-native init nomeDoProjeto
 ```
 
-2.2. Depois de iniciar o Projeto (Esse passo deve ser executado apenas uma vez)
+2. Depois de iniciar o Projeto (Esse passo deve ser executado apenas uma vez)
 Preparar o ambiente que você está usando, setar o dispositivo que será usado para testes já com o Disposito aberto.
 Ou seja, se você vai usar android, você deve estar com o Android Virtual (genymotion) aberto neste momento.
 
@@ -46,7 +46,7 @@ react-native run-android
 react-native run-ios
 ```
 
-2.3. Instanciando o Servidor para testes. Nesse caso, você já fez o passo 2.2.
+3. Instanciando o Servidor para testes. Nesse caso, você já fez o passo 2.2.
 Pra iniciar e começar os teste no Android, execute o comando:
 ```
 react-native start
@@ -135,31 +135,31 @@ Plugins extras para o ESLint
     "eslint-plugin-jsx-a11y": "\~",
     "eslint-plugin-react": "\~"
 
-// Fazer o projecto funcionar com acesso ao caminha raiz, e não caminha relativo
+* Fazer o projecto funcionar com acesso ao caminha raiz, e não caminha relativo
 ```
 yarn add babel-plugin-module-resolver --dev
 ```
-// Caso você tenha o 
+* Caso você tenha o 
 ```
 yarn add eslint-import-resolver-babel-module --dev 
 ```
 
-// Plugin para exibir o DOM do seu projeto, pronto pra você inspecionar o HTML
+* Plugin para exibir o DOM do seu projeto, pronto pra você inspecionar o HTML
 ```
 yarn add react-devtools --dev
 ```
 
-// Abas para navegação dentro do aplicativo
+* Abas para navegação dentro do aplicativo
 ```
 yarn add react-navigation@1.5.2
 ```
 
-// Axios para fazer requisições https
+* Axios para fazer requisições https
 ```
 yarn add axios
 ```
 
-// Icones para React-Native
+* Icones para React-Native
 ```
 yarn add react-native-vector-icons
 react-native link react-native-vector-icons
