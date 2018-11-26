@@ -26,7 +26,7 @@ choco install -y nodejs.install python2 jdk8
 ```
 
 
-4. Instalar yarn
+4. Instalar yarn  
 Acesse o site do [Yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable) ou se você tiver o Chocolatey
 ```
 choco install yarn
