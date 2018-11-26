@@ -1,4 +1,4 @@
-## Emulador sugerido
+## Emulador Sugerido
 
 https://visualstudio.microsoft.com/pt-br/vs/msft-android-emulator/
 
@@ -8,7 +8,7 @@ https://visualstudio.microsoft.com/pt-br/vs/msft-android-emulator/
 
 1.1. Android Studio (Download pesado)
 Acesse o site e fazer o download do Android Studio para seu OS.
-Link: [Androind Studio](https://developer.android.com/studio/)
+Link: [Android Studio](https://developer.android.com/studio/)
 
 Depois do Download...
 
