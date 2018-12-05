@@ -19,6 +19,20 @@ yarn add redux-saga
 yarn add react-native-vector-icons
 react-native link react-native-vector-icons
 
+```js
+import Icon from "react-native-vector-icons/MaterialIcons";
+import Icon from "react-native-vector-icons/FontAwesome";
+
+```
+
+## Moment (date utils)
+yarn add moment
+
+```js
+import moment from 'moment';
+import 'moment/locale/pt-br';
+```
+
 
 ## Reactotron (all plugins as dependencies, not like devDependencies)
 
@@ -32,3 +46,4 @@ yarn add reactotron-redux-saga
 
 ## Navigator 
 yarn add react-navigation
+
