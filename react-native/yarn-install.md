@@ -47,3 +47,8 @@ yarn add reactotron-redux-saga
 ## Navigator 
 yarn add react-navigation
 
+
+
+
+## Loadsh (debounce, or how many time after last call of function) 
+yarn add lodash
