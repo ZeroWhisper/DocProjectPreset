@@ -20,8 +20,8 @@ yarn add react-native-vector-icons
 react-native link react-native-vector-icons
 
 ```js
-import Icon from "react-native-vector-icons/MaterialIcons";
-import Icon from "react-native-vector-icons/FontAwesome";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import FontAwesome from "react-native-vector-icons/FontAwesome";
 
 ```
 
@@ -39,16 +39,15 @@ import 'moment/locale/pt-br';
 * For react-native
 yarn add reactotron-react-native
 
-* For redux
+* For redux and saga
 yarn add reactotron-redux
 yarn add reactotron-redux-saga
 
 
-## Navigator 
+## Navigator
 yarn add react-navigation
 
 
 
-
-## Loadsh (debounce, or how many time after last call of function) 
+## Loadsh (debounce, or how many time after last call of function)
 yarn add lodash

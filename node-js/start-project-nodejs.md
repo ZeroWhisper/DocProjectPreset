@@ -1,19 +1,15 @@
 # Iniciar um projeto em NodeJS
 
 yarn init -y
-npm init -y
+
+## Yarn
 
 Exemplo de uso:
-Remover: yarn remove <package_name>
-Instalar na versão específica: npm install -g pg@6.4.2
-Instalar de forma global: 
- npm install -g <package_name>
- yarn add global <package_name>
-
-
-# Exemplo para dep de Desenvolvimento
-npm install NOME -D
-yarn add NOME -D
+ - Add: yarn add <package_name>
+ - Add dev dependecies: yarn add -D <package_name>
+ - Add global: yarn global add <package_name>
+ - Remover: yarn remove <package_name>
+ - Add at version: yarn add pg@6.4.2
 
 # Instalando ESLint no seu projeto
 npx eslint --init
@@ -27,24 +23,23 @@ Depois, digite Y para ele finalizar a instalação via NPM
 - Nota: Ele vai criar um package-lock.json. Pra resolver isso, delete este arquivo e digite somente yarn na pasta do projeto. Assim o lock será apenas do yarn
 
 
-
 # MongoDB
 
 Site para testes de Dev
 https://www.mongodb.com/cloud/atlas
 https://mlab.com/
 
+
 # Executar o Sequelize
 .\node_modules\.bin\sequelize init
 ou 
 npx sequelize init
 
+
 # Drive para cada banco de dados
 
  - postgres: pg
  - mysql: mysql2
-
-
 
 
 # Extra
@@ -60,6 +55,4 @@ sequelize-auto -h 127.0.0.1 -d "campanha-vacinacao" -u postgres -x postgres -p 5
 ## Docker
 
 https://www.docker.com/get-started
-
-
 
