@@ -42,3 +42,7 @@ https://linux.softpedia.com/get/Text-Editing-Processing/Others/Text-Editor/Subli
 ```
 sudo ln -s $(which adb) /usr/bin/adb
 ```
+
+8. Download de Audio/Youtube
+
+https://www.mediahuman.com/youtube-to-mp3-converter/
